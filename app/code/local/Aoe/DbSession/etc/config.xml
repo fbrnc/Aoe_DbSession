@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Aoe_DbSession>
+			<version>0.1.0</version>
+		</Aoe_DbSession>
+	</modules>
+
+	<global>
+		<helpers>
+			<aoe_dbsession>
+				<class>Aoe_DbSession_Helper</class>
+			</aoe_dbsession>
+		</helpers>
+		<blocks>
+			<aoe_dbsession>
+				<class>Aoe_DbSession_Block</class>
+			</aoe_dbsession>
+		</blocks>
+		<models>
+			<aoe_dbsession>
+				<class>Aoe_DbSession_Model</class>
+			</aoe_dbsession>
+		</models>
+	</global>
+
+	<frontend>
+		<layout>
+			<updates>
+				<aoe_dbsession module="Aoe_DbSession">
+					<file>aoe_dbsession/aoe_dbsession.xml</file>
+				</aoe_dbsession>
+			</updates>
+		</layout>
+	</frontend>
+
+</config>
